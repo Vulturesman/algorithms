@@ -18,7 +18,7 @@ function palindrome(str) {
     return true;
   } else return false;
 
-  // return str === reversed;
+  // return str === reversed
 }
 
 // function palindrome(str) {
