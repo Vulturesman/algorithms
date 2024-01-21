@@ -9,6 +9,7 @@
 
 function palindrome(str) {
   let reversed = "";
+
   for (let character of str) {
     reversed = character + reversed;
   }
@@ -16,6 +17,13 @@ function palindrome(str) {
   if (reversed === str) {
     return true;
   } else return false;
+
+  // return str === reversed;
 }
+
+// function palindrome(str) {
+//   const reversed = str.split("").reverse().join("");
+//   return str === reversed;
+// }
 
 module.exports = palindrome;
